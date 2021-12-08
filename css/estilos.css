@@ -90,6 +90,12 @@ header {
     background-color: darkslategrey;
 }
 
+.jumbotron .btn-lg:hover{
+    background-color: #8c8c8c;
+    transition: .5s;
+
+}
+
 .imagenes a {
     flex: 1;
     margin-left: 15px;
