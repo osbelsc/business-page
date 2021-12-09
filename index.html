@@ -6,55 +6,52 @@
     <meta http-equiv="X-UA-Compatible">
     <link rel="shortcut icon" type="image/x-icon" href="images/sicon.jpg">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <title>Socas's Blog</title>
 </head>
 
 <body>
-
-    <header class="encabezado navbar-fixed-top fondo-menu">
-        <div class="nav">
-            <div class="container logo">
-                <img src="sicon.jpg" alt="icono" width="70" height="70">
-                <h2 class="nombre">Socas's Blog </h2>
-            </div>
-            <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
-                <i class="fa fa-bars" aria-hidden="true"></i></button>
-
-            <div class="enlaces">
-                <nav>
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active " href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contactos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="carrito%20s.png" alt="carrito de compra" width="30" height="30"></a>
-                        </li>
-                    </ul>
-                </nav>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top">
+        <div class="container">
+            <header class="navbar-brand">
+                <h2 class="nombre"><img src="images/sicon.jpg" class="logo" alt="icono">  Socas's Blog </h2>
+            </header>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-    </header>
-
-
-    <div class="first">
+    <section class="first">
         <div class="section1 wow slideInLeft" data-wow-delay=".1s">
             <h1 class="display-4">Blog personal de alimentos Socas's</h1>
             <p> <strong>En nuestra pagina damos información sobre nuestra negocio </strong></p>
         </div>
-    </div>
+    </section>
 
-    <div class="jumbotron">
+    <section class="container my-5">
         <h1 class="display-3">Productos de La Carmela</h1>
         <p class="lead">En nuestro blog explicaremos todo lo referente a los productos que en el presente se ofrecen en nuestra finca con todo tipo de informacion
             ya sea sus propiedades medicinales ,diferentes tipos,e incluso recetas .</p>
@@ -62,61 +59,134 @@
         <p class="lead">
             <a class="btn btn-primary btn-lg " href="nosotros.html" role="button">leer mas </a>
         </p>
+    </section>
+
+    <section class="container imagenes my-5">
         <h1 class="display-4">Seleccione su producto y aprenda! </h1>
-        <hr class="my-4">
-    </div>
-    <div class="imagenes jumbotron">
 
-        <a href="alimentos/rucula.html" class="wow bounceIn" data-wow-delay="1s">
-            <img src="images/ruc.jpg" alt="rucula" width="200" height="200">
-            <p>Rucula</p>
-        </a>
-        <a href="alimentos/mango.html"class="wow bounceIn" data-wow-delay="1.5s">
-            <img src="images/man.jpeg" alt="mango" width="200" height="200">
-            <p>Mango</p>
-        </a>
-        <a href="alimentos/aguacate.html"class="wow bounceIn" data-wow-delay="2s">
-            <img src="images/agu.jpeg" alt="aguacate" width="200" height="200">
-            <p>Aguacate</p>
-        </a>
-        <a href="alimentos/lechuga.html"class="wow bounceIn" data-wow-delay="2.5s">
-            <img src="images/lec.jpeg" alt="lechuga" width="200" height="200">
-            <p>Lechuga</p>
-        </a>
-        <a href="alimentos/tomate.html"class="wow bounceIn" data-wow-delay="3s">
-            <img src="images/tom.jpeg" alt="tomate" width="200" height="200">
-            <p>tomate</p>
-        </a>
-        <a href="alimentos/acelga.html"class="wow bounceIn" data-wow-delay="1s">
-            <img src="images/ace.jpeg" alt="acelga" width="200" height="200">
-            <p>acelga</p>
-        </a>
-        <a href="alimentos/zanahoria.html"class="wow bounceIn" data-wow-delay="1.5s">
-            <img src="images/zan.jpeg" alt="zanahoria" width="200" height="200">
-            <p>Zanahoria</p>
-        </a>
-        <a href="alimentos/limon.html"class="wow bounceIn" data-wow-delay="2s">
-            <img src="images/lim.jpeg" alt="limon" width="200" height="200">
-            <p>limon</p>
-        </a>
-        <a href="alimentos/platano.html"class="wow bounceIn" data-wow-delay="2.5s">
-            <img src="images/plat.jpeg" alt="platano" width="200" height="200">
-            <p>platano</p>
-        </a>
-        <a href="alimentos/yuca.html" class="wow bounceIn" data-wow-delay="3s">
-            <img src="images/yuc.jpeg" alt="yuca" width="200" height="200">
-            <p>yuca</p>
-        </a>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/ruc.jpg" alt="rucula">
+                        </div>
+                        <div class="card-footer">
+                            <p>Rucula</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn" data-wow-delay="0.5s">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/man.jpeg" alt="mango">
+                        </div>
+                        <div class="card-footer">
+                            <p>Mango</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn" data-wow-delay="1s">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/agu.jpeg" alt="aguacate">
+                        </div>
+                        <div class="card-footer">
+                            <p>Aguacate</p>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn" data-wow-delay="1.5s">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/lec.jpeg" alt="lechuga">
+                        </div>
+                        <div class="card-footer">
+                            <p>Lechuga</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn" data-wow-delay="2s">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/tom.jpeg" alt="tomate">
+                        </div>
+                        <div class="card-footer">
+                            <p>Tomate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn" data-wow-delay="2.5s">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/ace.jpeg" alt="acelga">
+                        </div>
+                        <div class="card-footer">
+                            <p>Acelga</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn" data-wow-delay="3s">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/zan.jpeg" alt="zanahoria">
+                        </div>
+                        <div class="card-footer">
+                            <p>Zanahoria</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn" data-wow-delay="3.5s">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/lim.jpeg" alt="limon">
+                        </div>
+                        <div class="card-footer">
+                            <p>Limon</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn" data-wow-delay="4s">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/plat.jpeg" alt="platano">
+                        </div>
+                        <div class="card-footer">
+                            <p>Platano</p>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-lg-3 col-md-4 wow bounceIn" data-wow-delay="4.5s">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/yuc.jpeg" alt="yuca">
+                        </div>
+                        <div class="card-footer">
+                            <p>Yuca</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <h5>osbel socas @copiright 2021 derechos reservados </h5>
+        <h5 class="text-center text-white m-0">osbel socas @copiright 2021 derechos reservados </h5>
     </footer>
-    <script src="js/wow.min.js"></script>
-    <script src="js/sitio.js">
-    </script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/all.min.js"></script>
+    <script type="text/javascript" src="js/sitio.js"></script>
 </body>
 
 
